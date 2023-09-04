@@ -1,0 +1,22 @@
+#root {
+  display: flex;
+
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  text-align: center;
+  flex-direction: column;
+}
+* {
+  transition: all 0.3s;
+}
+
+html {
+  background: rgb(180, 46, 46);
+  background: radial-gradient(
+    circle,
+    rgba(180, 46, 46, 1) 0%,
+    rgba(91, 13, 13, 1) 100%
+  );
+}
